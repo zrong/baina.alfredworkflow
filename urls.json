@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Gerrit" ,
+        "url": "http://game-git.baina.com:8080/"
+    },
+    {
+        "title": "Jenkins" ,
+        "url": "http://game-git.baina.com:8082"
+    },
+    {
+        "title": "Util" ,
+        "url": "http://gameutil.baina.com/"
+    },
+    {
+        "title": "Skill Tree" ,
+        "url": "http://gameutil.baina.com/doc/game-client-skill-tree/"
+    },
+    {
+        "title": "Plan" ,
+        "url": "http://gameutil.baina.com/doc/game-client-plans/"
+    },
+    {
+        "title": "Light" ,
+        "url": "http://gameutil.baina.com/doc/game-quick-dev-framework/"
+    },
+    {
+        "title": "Weekly Meeting" ,
+        "url": "http://wiki.baina.com/game_team:weekly_meeting:dev"
+    }
+]
