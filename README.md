@@ -28,6 +28,15 @@
 
 ![Already connection][56]
 
+## bnurl
+
+访问常用的内网网址，使用默认浏览器打开。
+
+![Show all URLs][57]
+
+输入字符可筛选网址：
+
+![Show filtered URLs][58]
 
 [51]: images/conn_enter_name_pass.png
 [52]: images/conn_enter_pass.png
@@ -35,3 +44,5 @@
 [54]: images/conn_saved.png
 [55]: images/conn_logon_success.png
 [56]: images/conn_already_conn.png
+[57]: images/url_all.png
+[58]: images/url_filter.png
