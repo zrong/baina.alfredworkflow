@@ -9,17 +9,26 @@ u'''
 ########################################
 
 import sys
+import json
 from workflow import (Workflow, notify, web)
 
 log = None
+loginurl = 'http://192.168.66.1/ac_portal/login.php'
+
 
 def connect(name, passwd):
-    notify.notify(name, passwd)
-    # url = 'https://api.douban.com/v2/book/search'
-    params = dict(count=20, q=u'你好')
-    # r = web.get(url, params)
-    # r.raise_for_status()
-    # return r.json()
+    params = dict(opr='pwdLogin', userName=name, pwd=passwd)
+    r = web.post(loginurl, params)
+    r.raise_for_status()
+    log.debug(r.status_code)
+    # encoding 的值为 None
+    # 不得不BS一下硬件公司的软件程序员的编码水平
+    # 没有 encoding ，JSON用单引号
+    log.debug(r.encoding)
+    # 是哪个傻X在JSON里面使用单引号！
+    jsonstr = unicode(r.content, 'utf8').replace("'", '"')
+    result = json.loads(jsonstr)
+    notify.notify(result['msg'], u'user: %s'%result['userName'])
 
 def main(wf):
     conf = wf.settings.get('user')
