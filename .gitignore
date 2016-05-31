@@ -63,3 +63,4 @@ target/
 
 conf.ini
 *.dist-info/
+workflow/

@@ -9,12 +9,17 @@ u'''
 ########################################
 
 import sys
-from workflow import (Workflow, notify, ICON_USER, ICON_SETTINGS, ICON_NETWORK)
+from workflow import (Workflow, notify, web)
 
 log = None
 
 def connect(name, passwd):
     notify.notify(name, passwd)
+    # url = 'https://api.douban.com/v2/book/search'
+    params = dict(count=20, q=u'你好')
+    # r = web.get(url, params)
+    # r.raise_for_status()
+    # return r.json()
 
 def main(wf):
     conf = wf.settings.get('user')

@@ -42,7 +42,6 @@ def main(wf):
             wf.add_item(u'请输入密码', u'bnconn user pass', valid=True, icon=ICON_USER)
         else:
             wf.add_item(u'请输入用户名和密码（仅需一次）', u'bnconn user pass', valid=True, icon=ICON_USER)
-
     wf.send_feedback()
 
 if __name__ == '__main__':
