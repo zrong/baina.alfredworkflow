@@ -30,6 +30,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>BF974789-9FFB-4B1A-8929-9BD111813DAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4D021F2-17EC-4921-BBEB-CAB7B536EC47</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>rzeng@bainainfo.com</string>
@@ -143,6 +154,33 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>45</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>N</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>BF974789-9FFB-4B1A-8929-9BD111813DAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>使用说明
@@ -164,6 +202,11 @@ https://github.com/BainaGame/baina.alfredworkflow</string>
 		<dict>
 			<key>ypos</key>
 			<real>300</real>
+		</dict>
+		<key>BF974789-9FFB-4B1A-8929-9BD111813DAC</key>
+		<dict>
+			<key>ypos</key>
+			<real>420</real>
 		</dict>
 		<key>F4D021F2-17EC-4921-BBEB-CAB7B536EC47</key>
 		<dict>

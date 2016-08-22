@@ -1,11 +1,11 @@
 [
     {
         "title": "Gerrit" ,
-        "url": "http://game-git.baina.com:8080/"
+        "url": "http://gamegit.baina.com/"
     },
     {
         "title": "Jenkins" ,
-        "url": "http://game-git.baina.com:8082"
+        "url": "http://gameci.baina.com"
     },
     {
         "title": "Util" ,
@@ -13,18 +13,22 @@
     },
     {
         "title": "Skill Tree" ,
-        "url": "http://gameutil.baina.com/doc/game-client-skill-tree/"
+        "url": "http://gameutil.baina.com/doc/game-dev-skill-tree/"
     },
     {
         "title": "Plan" ,
-        "url": "http://gameutil.baina.com/doc/game-client-plans/"
+        "url": "http://gameutil.baina.com/doc/game-dev-plans/"
     },
     {
         "title": "Light" ,
-        "url": "http://gameutil.baina.com/doc/game-quick-dev-framework/"
+        "url": "http://gameutil.baina.com/doc/light-documents/"
     },
     {
         "title": "Weekly Meeting" ,
         "url": "http://wiki.baina.com/game_team:weekly_meeting:dev"
+    },
+    {
+        "title": "Monthly Assessment" ,
+        "url": "http://wiki.baina.com/game_team:dev:monthly_assessment"
     }
 ]
